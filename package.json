@@ -1,0 +1,9 @@
+{
+  "name": "ChatAnalyzer",
+  "version": "1.0.0",
+  "description": "Javascript webapp that analyzes your Chat history locally on your machine",
+  "main": "index.js",
+  "repository": "https://github.com/mowolf/ChatAnalyzer.git",
+  "author": "Moritz Wolf",
+  "license": "MIT"
+}
