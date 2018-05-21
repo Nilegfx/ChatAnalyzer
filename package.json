@@ -5,5 +5,16 @@
   "main": "index.js",
   "repository": "https://github.com/mowolf/ChatAnalyzer.git",
   "author": "Moritz Wolf",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "clean": "rimraf dist",
+    "start": "yarn clean && webpack --mode development --watch",
+    "build": "yarn clean && webpack --mode production",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
 }

@@ -65,6 +65,7 @@ typings/
 # development files
 ignored
 dist
+build
 
 # IDEA/Webstorm project files
 .idea
