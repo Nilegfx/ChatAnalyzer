@@ -65,3 +65,23 @@ Array of structs with the keys:
 - `message`: text
 
 For every person there is one struct, same format as above, the `index` represents messageNumber of `name`.
+
+
+## Development
+
+### prerequisites
+install [yarn](https://yarnpkg.com/en/) (package/dependency manager, similar to NPM)
+```bash
+npm i yarn -g
+```
+
+### running development server
+```bash
+yarn start
+```
+
+### build final bundle
+```bash
+yarn build
+```
+this will create build folder in the app directory that has the static files
